@@ -3,27 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package java4;
+package MOD2;
 
 /**
  *
  * @author SMV
  */
-public class prgm1 
-{
-    public static void main(String[] args)
+public class prgm1 {
+    //data member
+    int age=10;
+    String name ="abc";
+    //member function
+    void read()
     {
-        int n = 1234;
-        int c=0;
-        int r=0;
-        
-while(n>0)
-{
-    r=n%10;
-    c++;
-    n=n/10;
-}
-System.out.println(c);
+        System.out.println("reading");
     }
+    public static void main(String[] args){
+        System.out.println("prgm starts");
+        prgm1 oops=new prgm1();
+        System.out.println("my age is:"+" "+oops.age);
+        System.out.println("my name is:"+" "+oops.name);
+        oops.read();
+        System.out.println("prgm ends");
+    }
+    
+    
+    
+    
 }
-      
