@@ -11,12 +11,12 @@ package MOD2;
  */
 public class Test {
     public static void main(String[] args){
-        employee e = new employee();
-        System.out.println(e.id);
-        System.out.println(e.des);
-        System.out.println(e.sal);
+       
+        System.out.println(employee.id);
+        System.out.println(employee.des);
         
-        e.work();
+        
+        employee.work();
     }
     
 }

@@ -10,10 +10,10 @@ package MOD2;
  * @author SMV
  */
 public class employee {
-    int id = 101;
-    String des = "Manager";
-    double sal = 12345.66;
-    void work()
+    static int id = 101;
+    static String des = "Manager";
+   
+    static void work()
     {
         System.out.println("working");
     }
